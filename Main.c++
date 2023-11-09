@@ -1,4 +1,4 @@
-// Constant variables
+
 const char ROCK = 'r';
 const char PAPER = 'p';
 const char SCISSORS = 's';
@@ -7,7 +7,7 @@ using namespace std;
  
 char getComputerOption() {
     srand(time(0));
-    // Random number
+    
     int num = rand() % 3 + 1;
  
     if(num==1) return 'r';
@@ -68,9 +68,9 @@ void chooseWinner(char uChoice, char cChoice) {
 }
  
 int main() {
-    //User's choice
+    
     char uChoice; 
-    //Compter's choice
+    
     char cChoice;
     
     uChoice = getUserOption();
