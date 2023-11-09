@@ -1,6 +1,6 @@
 import random
-while true:
- user_move = input("Scissors, Paper, rock: ")
+while True:
+ user_move = input("Scissors, Paper, Rock: ")
  possible_move = ["Scissors", "Paper", "Rock"]
  ai_move = random.choice(possible_move)
  print(f"\nYour move {user_move}, ai's move {ai_move}.\n")
